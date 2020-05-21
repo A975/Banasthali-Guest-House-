@@ -5,5 +5,5 @@ namely,
 2)the joined faculty
 3)the ex students
 4)the gaurdians
-the information about Banasthali Guest how can the guest book a room seek  permission 
-from the the respective authorities to visit bansthali and booka room of their choice. 
+the information about Banasthali Guest how can the guest book a room and seek  permission 
+from the the respective authorities to visit Banasthali Vidyapith for valid reasons.
