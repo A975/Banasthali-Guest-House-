@@ -1,0 +1,293 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 Feb, 2020, 9:22:30 PM
+    Author     : ANJALI
+*/
+
+.header{
+    margin-top:100px;
+    text-align: center;
+    margin:auto;
+    height:180px;
+    background-color:#0099cc;
+    line-spacing:5px;
+   
+}
+.header h2,h3{
+    padding-top: 100px;
+}
+.rating-wrapper label{
+    width:50px;
+    display:inline-block;
+    position:relative;
+    cursor:pointer;
+    
+}
+
+.rating-wrapper label:before{
+    
+    font-size:50px;
+    content:"\2605";
+    position: absolute;
+    font-size:50px;
+    display:inline-block;
+    top:0;
+    left:0;
+    
+    
+}
+.rating-wrapper
+{
+    direction:rtl;
+    float:left;
+}
+.rating-wrapper input
+{
+    display:none;
+}
+.ques
+{
+    padding-left:40px;
+    
+}
+
+.rating-wrapper label:after{
+    font-size:50px;
+    content:"\2605";
+    position: absolute;
+    font-size:50px;
+    display:inline-block;
+    top:0;
+    left:0;
+    color:yellow;
+    opacity:0;
+}
+.rating-wrapper label:hover:after,
+.rating-wrapper label:hover~label:after,
+.rating-wrapper input:checked~label:after{
+    opacity:1
+}
+/*.rating-wrapper label:hover:after,
+.rating-wrapper label:hover~label:after,
+.rating-wrapper input:checked~label:after
+{
+    opacity:1;
+}*/
+.rating-wrapper2 label{
+    width:50px;
+    display:inline-block;
+    position:relative;
+    cursor:pointer;
+    
+}
+
+.rating-wrapper2 label:before{
+    
+    font-size:50px;
+    content:"\2605";
+    position: absolute;
+    font-size:50px;
+    display:inline-block;
+    top:0;
+    left:0;
+    
+    
+}
+.rating-wrapper2
+{
+    direction:rtl;
+    float:left;
+}
+.rating-wrapper2 input
+{
+    display:none;
+}
+.ques
+{
+    padding-left:40px;
+    
+}
+
+.rating-wrapper2 label:after{
+    font-size:50px;
+    content:"\2605";
+    position: absolute;
+    font-size:50px;
+    display:inline-block;
+    top:0;
+    left:0;
+    color:yellow;
+    opacity:0;
+}
+.rating-wrapper2 label:hover:after,
+.rating-wrapper2 label:hover~label:after,
+.rating-wrapper2 input:checked~label:after{
+    opacity:1
+}
+.rating-wrapper3 label{
+    width:50px;
+    display:inline-block;
+    position:relative;
+    cursor:pointer;
+    
+}
+
+.rating-wrapper3 label:before{
+    
+    font-size:50px;
+    content:"\2605";
+    position: absolute;
+    font-size:50px;
+    display:inline-block;
+    top:0;
+    left:0;
+    
+    
+}
+.rating-wrapper3
+{
+    direction:rtl;
+    float:left;
+}
+.rating-wrapper3 input
+{
+    display:none;
+}
+.ques
+{
+    padding-left:40px;
+    
+}
+
+.rating-wrapper3 label:after{
+    font-size:50px;
+    content:"\2605";
+    position: absolute;
+    font-size:50px;
+    display:inline-block;
+    top:0;
+    left:0;
+    color:yellow;
+    opacity:0;
+}
+.rating-wrapper3 label:hover:after,
+.rating-wrapper3 label:hover~label:after,
+.rating-wrapper3 input:checked~label:after{
+    opacity:1
+}
+.rating-wrapper4 label{
+    width:50px;
+    display:inline-block;
+    position:relative;
+    cursor:pointer;
+    
+}
+
+.rating-wrapper4 label:before{
+    
+    font-size:50px;
+    content:"\2605";
+    position: absolute;
+    font-size:50px;
+    display:inline-block;
+    top:0;
+    left:0;
+    
+    
+}
+.rating-wrapper4
+{
+    direction:rtl;
+    float:left;
+}
+.rating-wrapper4 input
+{
+    display:none;
+}
+.ques
+{
+    padding-left:40px;
+    
+}
+
+.rating-wrapper4 label:after{
+    font-size:50px;
+    content:"\2605";
+    position: absolute;
+    font-size:50px;
+    display:inline-block;
+    top:0;
+    left:0;
+    color:yellow;
+    opacity:0;
+}
+.rating-wrapper4 label:hover:after,
+.rating-wrapper4 label:hover~label:after,
+.rating-wrapper4 input:checked~label:after{
+    opacity:1
+}
+.rating-wrapper5 label{
+    width:50px;
+    display:inline-block;
+    position:relative;
+    cursor:pointer;
+    
+}
+
+.rating-wrapper5 label:before{
+    
+    font-size:50px;
+    content:"\2605";
+    position: absolute;
+    font-size:50px;
+    display:inline-block;
+    top:0;
+    left:0;
+    
+    
+}
+.rating-wrapper5
+{
+    direction:rtl;
+    float:left;
+}
+.rating-wrapper5 input
+{
+    display:none;
+}
+.ques
+{
+    padding-left:40px;
+    
+}
+
+.rating-wrapper5 label:after{
+    font-size:50px;
+    content:"\2605";
+    position: absolute;
+    font-size:50px;
+    display:inline-block;
+    top:0;
+    left:0;
+    color:yellow;
+    opacity:0;
+}
+.rating-wrapper5 label:hover:after,
+.rating-wrapper5 label:hover~label:after,
+.rating-wrapper5 input:checked~label:after{
+    opacity:1
+}
+.btnwrapper
+{
+    margin-left: 200px;
+}
+.btn{
+    float:right;
+    font-family:sans-serif;
+    font-size: 20px;
+    border-radius: 4px;
+}
